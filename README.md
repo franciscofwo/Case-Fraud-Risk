@@ -1,6 +1,7 @@
 # Case-Fraud-Risk
-Case Fraud Risk
+Case Fraud Risk - A solução do case pode ser acessada [aqui](./solucao-case/solucao-final.md).
 
+# Context 
 
 # 1. Introduction
 This test is intended for candidates applying to Software Engineering positions at CloudWalk. If you get here, we already like you and see you as a good fit with our company. Now, we propose a challenge similar to the ones that we face on a daily basis.
@@ -41,33 +42,40 @@ Your Anti-fraud must have at least: 1 endpoint that receives transaction data an
 
 Example payload:
 
+```
 {
   "transaction_id" : 2342357,
-  "merchant_id" : 29744,
-  "user_id" : 97051,
-  "card_number" : "434505******9116",
-  "transaction_date" : "2019-11-31T23:16:32.812632",
-  "transaction_amount" : 373,
+  "merchant_id" : 29744, 
+  "user_id" : 97051,  
+  "card_number" : "434505******9116",  
+  "transaction_date" : "2019-11-31T23:16:32.812632", 
+  "transaction_amount" : 373, 
   "device_id" : 285475
 }
+```
+
 Example response:
 
+```
 { 
   "transaction_id" : 2342357,
   "recommendation" : "approve"
 }
+```
 
 You are free to determine the methods to approve/deny the transactions, but a few ways to do it are:
 
-rule-based - you define which cases get approved/denied based on predefined rules;
-score-base - you create a method/model (you could use machine learning models here if you want) to determine the risk-- score of a transaction and make your decision based on it;
-a combination of both;
+- rule-based - you define which cases get approved/denied based on predefined rules;
+
+- score-base - you create a method/model (you could use machine learning models here if you want) to determine the risk-- score of a transaction and make your decision based on it;
+
+- a combination of both;
 
 ## Things to watch for:
 
-Latency
-Security
-Architecture
+Latency \
+Security \
+Architecture \
 Coding style
 
 ## Antifraud Requirements
