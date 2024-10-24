@@ -1,5 +1,5 @@
 # Case-Fraud-Risk
-Case Fraud Risk - A solução do case pode ser acessada [aqui](./solucao-case/solucao-final.md).
+Case Fraud Risk - A solução do case pode ser acessada [aqui](./solucao-case/).
 
 # Context 
 
