@@ -79,8 +79,8 @@ Architecture \
 Coding style
 
 ## Antifraud Requirements
-Reject transaction if user is trying too many transactions in a row;
-Reject transactions above a certain amount in a given period;
+Reject transaction if user is trying too many transactions in a row; \
+Reject transactions above a certain amount in a given period; \
 Reject transaction if a user had a chargeback before (note that this information does not comes on the payload. The chargeback data is received days after the transaction was approved)
 
 # 4. Deliverables
